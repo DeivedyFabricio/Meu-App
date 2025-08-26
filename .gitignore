@@ -1,0 +1,15 @@
+# Ignorar dependências
+node_modules/
+dist/
+out/
+build/
+
+# Ignorar caches e temporários
+.cache/
+.nyc_output/
+*.log
+*.tmp
+
+# Ignorar arquivos de sistema do Windows/macOS
+.DS_Store
+Thumbs.db

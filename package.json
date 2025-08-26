@@ -1,0 +1,26 @@
+{
+  "name": "meuapp",
+  "version": "1.0.0",
+  "description": "Meu primeiro app Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Deivedy Fabricio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "electron-builder": "^24.13.3"
+  },
+    "build": {
+    "appId": "com.deivedy.primeiroaplicativo",
+    "productName": "PrimeiroAplicativo",
+    "directories": { "output": "dist" },
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": "nsis",
+      "forceCodeSigning": false
+    }
+  }
+}

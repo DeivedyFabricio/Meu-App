@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Meu App Electron</title>
+  </head>
+  <body>
+    <h1 style="color: green;">Olá Mundo! Meu programa Electron!</h1>
+    <button onclick="alert('Você realmente clicou!')" style="background-color:red;">Não clique aqui</button>
+
+   <script>
+      window.electronAPI.onAcao((comando) => {
+        if (comando === "novo") {
+          document.body.innerHTML += "<p>🆕 Você clicou em Novo! Sinta-se a vontade para fazer por conta própria um novo começo.</p>";
+        }
+      });
+
+          window.electronAPI.onAcao((comando) => {
+        if (comando === "sobre") {
+          alert('Desenvolvido por: Deivedy Fabricio\nData: 21/08/2025\nVersão: 1.0.0 - PT-BR');
+        }
+      });
+    </script>
+  </body>
+</html>
