@@ -3,31 +3,31 @@
 Este projeto é uma das minhas primeiras experiências com Electron, integrando HTML, CSS e JavaScript em um aplicativo desktop multiplataforma.
 O aplicativo é uma interface interativa que permite apresentar informações, interagir com dados ou realizar funções específicas diretamente em um aplicativo, sem depender de navegador.
 
-# Arquivos Principais
+## Arquivos Principais
 
-main.js: arquivo principal do Electron, responsável por criar a janela do aplicativo e gerenciar o ciclo de vida do app.
+- main.js: arquivo principal do Electron, responsável por criar a janela do aplicativo e gerenciar o ciclo de vida do app.
 
-preload.js: arquivo que permite expor APIs seguras do Node.js para o frontend.
+- preload.js: arquivo que permite expor APIs seguras do Node.js para o frontend.
 
-index.html: interface principal do aplicativo, exibida na janela do Electron.
+- index.html: interface principal do aplicativo, exibida na janela do Electron.
 
-renderer.js: script que controla a lógica do frontend e a interação com o usuário.
+- renderer.js: script que controla a lógica do frontend e a interação com o usuário.
 
-package.json: arquivo de configuração do projeto, contendo dependências e scripts para rodar o app.
+- package.json: arquivo de configuração do projeto, contendo dependências e scripts para rodar o app.
 
-# Tecnologias
+## Tecnologias
 
-Electron
+- Electron
 
-Node.js
+- Node.js
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
-# Como Executar
+## Como Executar
 
 Certifique-se de ter o Node.js instalado no seu computador.
 
